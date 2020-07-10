@@ -12,6 +12,7 @@ namespace DatabaseFirstDemo
         {
             var context = new DbEntities();
 
+            // Add Post to a db
             var newPost = new Post()
             {
                 Body = "Post Body",
@@ -22,8 +23,7 @@ namespace DatabaseFirstDemo
             context.Posts.Add(newPost);
             context.SaveChanges();
 
-            var savedPostTitle = context.Posts.FirstOrDefault().Title;
-            Console.WriteLine(savedPostTitle);
+            Console.WriteLine("A post has been successfully added!");
             Console.Read();
         }
     }
