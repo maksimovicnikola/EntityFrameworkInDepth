@@ -53,13 +53,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+
+    <Compile Include="Models\Author.cs" />
+    <Compile Include="Models\Course.cs" />
+    <Compile Include="Models\CourseLevel.cs" />
     <Compile Include="Migrations\202007131629544_InitialModel.cs" />
     <Compile Include="Migrations\202007131629544_InitialModel.designer.cs">
       <DependentUpon>202007131629544_InitialModel.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\PlutoContext.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Models\Tag.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
