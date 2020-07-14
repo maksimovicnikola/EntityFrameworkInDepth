@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseFirstWorkflow", "Da
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseFirstWorkflowExam", "DatabaseFirstWorkflowExam\DatabaseFirstWorkflowExam.csproj", "{E5594D6C-08BD-454D-BD6F-D2A5796A47B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstExistingDatabase", "CodeFirstExistingDatabase\CodeFirstExistingDatabase.csproj", "{EE0A9423-65E4-4038-9724-BC54913A9AB6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{E5594D6C-08BD-454D-BD6F-D2A5796A47B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5594D6C-08BD-454D-BD6F-D2A5796A47B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5594D6C-08BD-454D-BD6F-D2A5796A47B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE0A9423-65E4-4038-9724-BC54913A9AB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE0A9423-65E4-4038-9724-BC54913A9AB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE0A9423-65E4-4038-9724-BC54913A9AB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE0A9423-65E4-4038-9724-BC54913A9AB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
